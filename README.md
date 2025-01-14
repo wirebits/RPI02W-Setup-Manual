@@ -47,3 +47,4 @@ dtoverlay=dwc2
 # Setup Languages on Raspberry Pi Zero 2 W
 1. Go - [here](https://github.com/wirebits/RPI02W-Setup-Manual/tree/main/Go).
 2. Java - [here](https://github.com/wirebits/RPI02W-Setup-Manual/tree/main/Java).
+3. Rust - [here](https://github.com/wirebits/RPI02W-Setup-Manual/tree/main/Rust).
