@@ -1,7 +1,7 @@
 # Go-Setup-RPI0W
-Instructions to install Go on Raspberry Pi Zero W.
+Setup Go in Raspberry Pi Zero 2 W
 
-# Steps to install Go easily on Raspberry Pi Zero W
+# Steps to install Go easily on Raspberry Pi Zero 2 W
 1. Check the CPU model name of Raspberry Pi Zero W. It is generally `ARMv6`.
 2. Copy link of the Go souce file of ARMv6 (armv6l) from [here](https://go.dev/dl/).
 3. Open terminal and type the following command :
