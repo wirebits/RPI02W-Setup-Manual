@@ -1,4 +1,4 @@
-# Go-Setup-RPI0W
+# Go-Setup-RPI02W
 Setup Go in Raspberry Pi Zero 2 W
 
 # Steps to install Go easily on Raspberry Pi Zero 2 W
