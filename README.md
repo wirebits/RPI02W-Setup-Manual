@@ -32,17 +32,28 @@ modules-load=dwc2,g_ether
 dtoverlay=dwc2
 ```
 20. Save it and close the file.
-21. Eject the Micro SD Card from the computer.
-22. Put the Micro SD Card in Raspberry Pi Zero 2 W.
-23. Power it by connecting to the `PWR IN` pin.
-24. Wait for sometime, it connect to that wifi which is set during writing of OS.
-25. Download PuTTY from [here](https://www.putty.org/).
-26. Simply install it.
-27. Put the IP address and open it.
-28. Click on `Accept`.
-29. Enter Username and hit enter.
-30. Enter Password and hit enter.
+21. Download `ssh` file and put in the SD Card.
+22. It want to add more networks so that your Raspberry Pi Zero 2 W, add `wpa_supplicant.conf` after editing in the SD Card.
+23. Eject the Micro SD Card from the computer.
+24. Put the Micro SD Card in Raspberry Pi Zero 2 W.
+25. Power it by connecting to the `PWR IN` pin.
+26. Wait for sometime, it connect to that wifi which is set during writing of OS.
+27. Download PuTTY from [here](https://www.putty.org/).
+28. Simply install it.
+29. Put the IP address and open it.
+30. Click on `Accept`.
+31. Enter Username and hit enter.
+32. Enter Password and hit enter.
 - After that, it opens the terminal in this format : `Username`@`Hostname`.
+
+# Setup Networks on Raspberry Pi Zero 2 W without Monitor
+- There is a file named `wpa_supplicant.conf`.
+- You can many networks as you can.
+- Edit the following before put the file in SD Card :
+  1. Country Code
+  2. YOUR_SSID
+  3. YOUR_PASSWORD
+- You can set priority of the networks.
 
 # Setup Languages on Raspberry Pi Zero 2 W
 1. Go - [here](https://github.com/wirebits/RPI02W-Setup-Manual/tree/main/Go).
