@@ -32,7 +32,7 @@ modules-load=dwc2,g_ether
 dtoverlay=dwc2
 ```
 20. Save it and close the file.
-21. Download `ssh` file and put in the SD Card.
+21. Create a `ssh` file in the SD Card and make sure that it doesn't contain any extension at the end of the filename `ssh`.
 22. It want to add more networks so that your Raspberry Pi Zero 2 W can connect to many networks as in the range then, add `wpa_supplicant.conf` after editing in the SD Card.
 23. Eject the Micro SD Card from the computer.
 24. Put the Micro SD Card in Raspberry Pi Zero 2 W.
