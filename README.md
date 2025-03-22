@@ -59,3 +59,4 @@ dtoverlay=dwc2
 1. Go - [here](https://github.com/wirebits/RPI02W-Setup-Manual/tree/main/Go).
 2. Java - [here](https://github.com/wirebits/RPI02W-Setup-Manual/tree/main/Java).
 3. Rust - [here](https://github.com/wirebits/RPI02W-Setup-Manual/tree/main/Rust).
+4. Node.js - [here](https://github.com/wirebits/RPI02W-Setup-Manual/tree/main/Node.js).
