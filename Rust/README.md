@@ -24,3 +24,7 @@ rustc -V
 ```
 It show : `rustc 1.84.0 (9fc6b4312 2025-01-07)`.<br>
 Congratulations! Rust is successfully installed on your Raspberry Pi Zero 2 W.
+
+# Note
+- It is properly installed on `armhf` architecture supported Raspberry Pi Zero 2 W.
+- `armhf` means 32-bit OS.
