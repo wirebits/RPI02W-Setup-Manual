@@ -9,7 +9,7 @@ apt search openjdk
 2. Select openjdk version of your choice.
 3. Run the following command to download selected openjdk:<br>
 ```
-sudo apt install openjdk-17-jre -y
+sudo apt install openjdk-17-jdk -y
 ```
 4. Hit Enter.
 After some times it downloaded.
@@ -36,10 +36,17 @@ sudo reboot
 ```
 java -version
 ```
-It show : `go version go1.22.4 linux/arm`.<br>
+It show : <br>
+`openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment (build 17.0.13+11-Raspbian-1deb11u1rpt1)
+OpenJDK Client VM (build 17.0.13+11-Raspbian-1deb11u1rpt1, mixed mode, emulated-client)`.<br>
 12. Run the following command to check java jre is properly installed or not on the system :
 ```
 javac -version
 ```
-It show : `javac 17.0.2`.<br>
+It show : `javac 17.0.13`.<br>
 Congratulations! Java is successfully installed on your Raspberry Pi Zero 2 W.
+
+# Note
+- `armhf` → 32-bit OS
+- `arm64` → 64-bit OS
